@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  font-family: "Roboto", "Lato", "Helvetica Neue", "Helvetica", "Arial";
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+app-root {
+  height: 100%;
+}
+
+

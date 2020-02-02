@@ -1,6 +1,29 @@
+
+
+.apps-container {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+
+  li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    a {
+      font-size: 20px;
+      color: white;
+    }
+  }
+}
+
 .content {
+  font-size: 25px;
+  font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 200px;
+  height: calc(100% - 60px);
 }
