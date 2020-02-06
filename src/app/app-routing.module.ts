@@ -34,7 +34,7 @@ const routes: Routes = [
   },
   {
     path: 'media',
-    data: {preload: true},// preload flag
+    // data: {preload: true},// preload flag
     loadChildren: () =>
       import('./media/media.module').then(m => m.MediaModule)
   }
