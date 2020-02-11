@@ -9,6 +9,10 @@ import { RouterModule } from '@angular/router';
       {
         path: '',
         component: AboutComponent
+      },
+      {
+        path: '/',
+        component: AboutComponent
       }
     ])
   ]
