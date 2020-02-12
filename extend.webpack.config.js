@@ -32,10 +32,11 @@ module.exports = {
   plugins: [
     new GuessPlugin({
       debug: true,
-      // GA: viewId,
-      reportProvider() {
-        return Promise.resolve(JSON.parse(require('fs').readFileSync('./routes.json')));
-      },
+      jwt: auth,
+      GA: viewId,
+      // reportProvider() {
+      //   return Promise.resolve(JSON.parse(require('fs').readFileSync('./routes.json')));
+      // },
       runtime: {
         delegate: false
       },
