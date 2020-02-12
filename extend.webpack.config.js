@@ -32,7 +32,7 @@ module.exports = {
   plugins: [
     new GuessPlugin({
       debug: true,
-      jwt: auth,
+      jwt: credentials,
       GA: viewId,
       // reportProvider() {
       //   return Promise.resolve(JSON.parse(require('fs').readFileSync('./routes.json')));
