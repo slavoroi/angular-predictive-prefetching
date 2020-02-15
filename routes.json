@@ -10,7 +10,8 @@
   },
   "/about": {
     "/": 20,
-    "/media": 80
+    "/media": 80,
+    "/about/child": 20
   },
   "/media": {
     "/": 33,

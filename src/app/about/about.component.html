@@ -1,2 +1,13 @@
 <span>ABOUT COMPONENT</span>
-About <a routerLink="/media">Media</a>
+<div>
+  <a routerLink="/media">Media</a>
+</div>
+<div>
+  <div>SELECT CHILD ROUTE</div>
+  <div>
+    <button (click)="goToChild('a')">child-a</button>
+  </div>
+  <div>
+    <button (click)="goToChild('b')">child-b</button>
+  </div>
+</div>
