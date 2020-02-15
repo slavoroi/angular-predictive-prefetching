@@ -11,11 +11,22 @@
   "/about": {
     "/": 20,
     "/media": 80,
-    "/about/child": 20
+    "/about/child": 30,
+    "/about/child/a": 30,
+    "/about/child/b": 5
   },
   "/media": {
     "/": 33,
     "/about": 33,
     "/example": 34
+  },
+  "/about/child": {
+    "/example": 2
+  },
+  "/about/child/a": {
+    "/example": 2
+  },
+  "/about/child/b": {
+    "/about": 1
   }
 }

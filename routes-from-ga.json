@@ -1,20 +1,33 @@
 {
-  "/": {
-    "/example": 5,
-    "/about": 2
-  },
-  "/about": {
-    "/media": 5,
-    "/example": 3,
-    "/": 2
-  },
   "/example": {
-    "/": 5,
-    "/about": 4,
+    "/about": 32,
+    "/": 10,
     "/media": 2
   },
+  "/about": {
+    "/media": 24,
+    "/example": 9,
+    "/": 3,
+    "/about/child": 2,
+    "/about/child/a": 2,
+    "/about/child/b": 1
+  },
+  "/": {
+    "/example": 22,
+    "/about": 3
+  },
   "/media": {
-    "/about": 4,
-    "/example": 3
+    "/": 10,
+    "/example": 10,
+    "/about": 5
+  },
+  "/about/child": {
+    "/example": 2
+  },
+  "/about/child/a": {
+    "/example": 2
+  },
+  "/about/child/b": {
+    "/about": 1
   }
 }
