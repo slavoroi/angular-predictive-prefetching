@@ -15,12 +15,12 @@ module.exports = {
       //     endDate: new Date('2020-3-01')
       //   }
       runtime: {
-        prefetchConfig: {
-          // '4g': 0.15,
-          // '3g': 0.3,
-          // '2g': 0.45,
-          // 'slow-2g': 0.6
-        },
+        // prefetchConfig: {
+        //    '4g': 0.15,
+        //    '3g': 0.3,
+        //    '2g': 0.45,
+        //    'slow-2g': 0.6
+        // },
         delegate: false
       },
       routeProvider() {

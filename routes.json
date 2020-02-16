@@ -11,9 +11,9 @@
   "/about": {
     "/": 20,
     "/media": 80,
-    "/about/child": 30,
-    "/about/child/a": 30,
-    "/about/child/b": 5
+    "/about/child": 2,
+    "/about/child/a": 2,
+    "/about/child/b": 1
   },
   "/media": {
     "/": 33,
